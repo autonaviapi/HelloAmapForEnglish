@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B47BF571A52B4B600A60551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47BF561A52B4B600A60551 /* main.m */; };
+		7B47BF5A1A52B4B600A60551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47BF591A52B4B600A60551 /* AppDelegate.m */; };
+		7B47BF5D1A52B4B600A60551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47BF5C1A52B4B600A60551 /* ViewController.m */; };
+		7B47BF601A52B4B600A60551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B47BF5E1A52B4B600A60551 /* Main.storyboard */; };
+		7B47BF621A52B4B600A60551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B47BF611A52B4B600A60551 /* Images.xcassets */; };
+		7B47BF651A52B4B600A60551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B47BF631A52B4B600A60551 /* LaunchScreen.xib */; };
+		7B47BF711A52B4B600A60551 /* HelloAmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47BF701A52B4B600A60551 /* HelloAmapTests.m */; };
+		7B47BF8E1A52B58000A60551 /* POIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47BF8D1A52B58000A60551 /* POIAnnotation.m */; };
+		7B47BF901A52B5EF00A60551 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF8F1A52B5EF00A60551 /* AMapSearchKit.framework */; };
+		7B47BF921A52B60F00A60551 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF911A52B60F00A60551 /* SystemConfiguration.framework */; };
+		7B47BF941A52B64300A60551 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF931A52B64300A60551 /* libstdc++.6.0.9.dylib */; };
+		7B47BF961A52B64D00A60551 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF951A52B64D00A60551 /* libz.dylib */; };
+		7B47BF981A52B65300A60551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF971A52B65300A60551 /* UIKit.framework */; };
+		7B47BF9A1A52B65D00A60551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF991A52B65D00A60551 /* Foundation.framework */; };
+		7B47BF9C1A52B66700A60551 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF9B1A52B66700A60551 /* CoreGraphics.framework */; };
+		7B47BF9E1A52B67300A60551 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF9D1A52B67300A60551 /* CoreTelephony.framework */; };
+		7B47BFA01A52B68400A60551 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B47BF9F1A52B68400A60551 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B47BF6B1A52B4B600A60551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B47BF491A52B4B600A60551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B47BF501A52B4B600A60551;
+			remoteInfo = HelloAmap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B47BF511A52B4B600A60551 /* HelloAmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B47BF551A52B4B600A60551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B47BF561A52B4B600A60551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B47BF581A52B4B600A60551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B47BF591A52B4B600A60551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B47BF5B1A52B4B600A60551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B47BF5C1A52B4B600A60551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B47BF5F1A52B4B600A60551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B47BF611A52B4B600A60551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B47BF641A52B4B600A60551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B47BF6A1A52B4B600A60551 /* HelloAmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B47BF6F1A52B4B600A60551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B47BF701A52B4B600A60551 /* HelloAmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAmapTests.m; sourceTree = "<group>"; };
+		7B47BF8C1A52B58000A60551 /* POIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIAnnotation.h; sourceTree = "<group>"; };
+		7B47BF8D1A52B58000A60551 /* POIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIAnnotation.m; sourceTree = "<group>"; };
+		7B47BF8F1A52B5EF00A60551 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = HelloAmap/Extern/AMapSearchKit.framework; sourceTree = "<group>"; };
+		7B47BF911A52B60F00A60551 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7B47BF931A52B64300A60551 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		7B47BF951A52B64D00A60551 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7B47BF971A52B65300A60551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B47BF991A52B65D00A60551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B47BF9B1A52B66700A60551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B47BF9D1A52B67300A60551 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7B47BF9F1A52B68400A60551 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B47BF4E1A52B4B600A60551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B47BFA01A52B68400A60551 /* MapKit.framework in Frameworks */,
+				7B47BF9E1A52B67300A60551 /* CoreTelephony.framework in Frameworks */,
+				7B47BF9C1A52B66700A60551 /* CoreGraphics.framework in Frameworks */,
+				7B47BF9A1A52B65D00A60551 /* Foundation.framework in Frameworks */,
+				7B47BF981A52B65300A60551 /* UIKit.framework in Frameworks */,
+				7B47BF961A52B64D00A60551 /* libz.dylib in Frameworks */,
+				7B47BF941A52B64300A60551 /* libstdc++.6.0.9.dylib in Frameworks */,
+				7B47BF921A52B60F00A60551 /* SystemConfiguration.framework in Frameworks */,
+				7B47BF901A52B5EF00A60551 /* AMapSearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B47BF671A52B4B600A60551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B47BF481A52B4B600A60551 = {
+			isa = PBXGroup;
+			children = (
+				7B47BF9F1A52B68400A60551 /* MapKit.framework */,
+				7B47BF9D1A52B67300A60551 /* CoreTelephony.framework */,
+				7B47BF9B1A52B66700A60551 /* CoreGraphics.framework */,
+				7B47BF991A52B65D00A60551 /* Foundation.framework */,
+				7B47BF971A52B65300A60551 /* UIKit.framework */,
+				7B47BF951A52B64D00A60551 /* libz.dylib */,
+				7B47BF931A52B64300A60551 /* libstdc++.6.0.9.dylib */,
+				7B47BF911A52B60F00A60551 /* SystemConfiguration.framework */,
+				7B47BF8F1A52B5EF00A60551 /* AMapSearchKit.framework */,
+				7B47BF531A52B4B600A60551 /* HelloAmap */,
+				7B47BF6D1A52B4B600A60551 /* HelloAmapTests */,
+				7B47BF521A52B4B600A60551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B47BF521A52B4B600A60551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B47BF511A52B4B600A60551 /* HelloAmap.app */,
+				7B47BF6A1A52B4B600A60551 /* HelloAmapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B47BF531A52B4B600A60551 /* HelloAmap */ = {
+			isa = PBXGroup;
+			children = (
+				7B47BF8C1A52B58000A60551 /* POIAnnotation.h */,
+				7B47BF8D1A52B58000A60551 /* POIAnnotation.m */,
+				7B47BF5B1A52B4B600A60551 /* ViewController.h */,
+				7B47BF5C1A52B4B600A60551 /* ViewController.m */,
+				7B47BF581A52B4B600A60551 /* AppDelegate.h */,
+				7B47BF591A52B4B600A60551 /* AppDelegate.m */,
+				7B47BF5E1A52B4B600A60551 /* Main.storyboard */,
+				7B47BF611A52B4B600A60551 /* Images.xcassets */,
+				7B47BF631A52B4B600A60551 /* LaunchScreen.xib */,
+				7B47BF541A52B4B600A60551 /* Supporting Files */,
+			);
+			path = HelloAmap;
+			sourceTree = "<group>";
+		};
+		7B47BF541A52B4B600A60551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B47BF551A52B4B600A60551 /* Info.plist */,
+				7B47BF561A52B4B600A60551 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B47BF6D1A52B4B600A60551 /* HelloAmapTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B47BF701A52B4B600A60551 /* HelloAmapTests.m */,
+				7B47BF6E1A52B4B600A60551 /* Supporting Files */,
+			);
+			path = HelloAmapTests;
+			sourceTree = "<group>";
+		};
+		7B47BF6E1A52B4B600A60551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B47BF6F1A52B4B600A60551 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B47BF501A52B4B600A60551 /* HelloAmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B47BF741A52B4B600A60551 /* Build configuration list for PBXNativeTarget "HelloAmap" */;
+			buildPhases = (
+				7B47BF4D1A52B4B600A60551 /* Sources */,
+				7B47BF4E1A52B4B600A60551 /* Frameworks */,
+				7B47BF4F1A52B4B600A60551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAmap;
+			productName = HelloAmap;
+			productReference = 7B47BF511A52B4B600A60551 /* HelloAmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B47BF691A52B4B600A60551 /* HelloAmapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B47BF771A52B4B600A60551 /* Build configuration list for PBXNativeTarget "HelloAmapTests" */;
+			buildPhases = (
+				7B47BF661A52B4B600A60551 /* Sources */,
+				7B47BF671A52B4B600A60551 /* Frameworks */,
+				7B47BF681A52B4B600A60551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B47BF6C1A52B4B600A60551 /* PBXTargetDependency */,
+			);
+			name = HelloAmapTests;
+			productName = HelloAmapTests;
+			productReference = 7B47BF6A1A52B4B600A60551 /* HelloAmapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B47BF491A52B4B600A60551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = autonavi;
+				TargetAttributes = {
+					7B47BF501A52B4B600A60551 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7B47BF691A52B4B600A60551 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7B47BF501A52B4B600A60551;
+					};
+				};
+			};
+			buildConfigurationList = 7B47BF4C1A52B4B600A60551 /* Build configuration list for PBXProject "HelloAmap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B47BF481A52B4B600A60551;
+			productRefGroup = 7B47BF521A52B4B600A60551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B47BF501A52B4B600A60551 /* HelloAmap */,
+				7B47BF691A52B4B600A60551 /* HelloAmapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B47BF4F1A52B4B600A60551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B47BF601A52B4B600A60551 /* Main.storyboard in Resources */,
+				7B47BF651A52B4B600A60551 /* LaunchScreen.xib in Resources */,
+				7B47BF621A52B4B600A60551 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B47BF681A52B4B600A60551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B47BF4D1A52B4B600A60551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B47BF5D1A52B4B600A60551 /* ViewController.m in Sources */,
+				7B47BF8E1A52B58000A60551 /* POIAnnotation.m in Sources */,
+				7B47BF5A1A52B4B600A60551 /* AppDelegate.m in Sources */,
+				7B47BF571A52B4B600A60551 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B47BF661A52B4B600A60551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B47BF711A52B4B600A60551 /* HelloAmapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B47BF6C1A52B4B600A60551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B47BF501A52B4B600A60551 /* HelloAmap */;
+			targetProxy = 7B47BF6B1A52B4B600A60551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B47BF5E1A52B4B600A60551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B47BF5F1A52B4B600A60551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B47BF631A52B4B600A60551 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B47BF641A52B4B600A60551 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B47BF721A52B4B600A60551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B47BF731A52B4B600A60551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B47BF751A52B4B600A60551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloAmap/Extern",
+				);
+				INFOPLIST_FILE = HelloAmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B47BF761A52B4B600A60551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloAmap/Extern",
+				);
+				INFOPLIST_FILE = HelloAmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B47BF781A52B4B600A60551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloAmapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAmap.app/HelloAmap";
+			};
+			name = Debug;
+		};
+		7B47BF791A52B4B600A60551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloAmapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAmap.app/HelloAmap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B47BF4C1A52B4B600A60551 /* Build configuration list for PBXProject "HelloAmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B47BF721A52B4B600A60551 /* Debug */,
+				7B47BF731A52B4B600A60551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B47BF741A52B4B600A60551 /* Build configuration list for PBXNativeTarget "HelloAmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B47BF751A52B4B600A60551 /* Debug */,
+				7B47BF761A52B4B600A60551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B47BF771A52B4B600A60551 /* Build configuration list for PBXNativeTarget "HelloAmapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B47BF781A52B4B600A60551 /* Debug */,
+				7B47BF791A52B4B600A60551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B47BF491A52B4B600A60551 /* Project object */;
+}
